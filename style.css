@@ -50,6 +50,7 @@ a {
   position: relative;
   z-index: 999;
   pointer-events: auto;
+  color: #ced9ea;
 }
 
 ul {
