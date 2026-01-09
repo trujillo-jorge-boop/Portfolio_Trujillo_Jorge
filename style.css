@@ -42,6 +42,16 @@ h3 {
   margin-top: 0px;
 }
 
+div {
+  position: relative;
+}
+
+a {
+  position: relative;
+  z-index: 999;
+  pointer-events: auto;
+}
+
 ul {
   padding-left: 50px;
   list-style-type: square; /* disc | circle | square | none */
