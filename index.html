@@ -4,33 +4,97 @@
     <meta charset="UTF-8" />
     <title>Portfolio🌍</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
-    <h1 class="header">Welcome to my portfolio</h1>
-    <h2>Jorge Trujillo</h2>
-    <h3>Software Engineer</h3>
-    <p class="about_me">
-      Hi, Im a software engineer with almost 4 years of experience in software
-      development, most of my experience is in the automotive field.
-    </p>
-
-    <div>
-      <h2>Projects</h2>
-      <ul class="list_projects">
-        <li>
-          <a href="./Projects/TinDog/" target="_blank">TinDog</a>
-        </li>
-        <li>
-          <a href="./Projects/Dice-Puzzle/" target="_blank">Dice puzzle</a>
-        </li>
-        <li>Drum Kit Section 18</li>
-        <li>Memory game Section 20</li>
-        <li>Group Travel Tracker Section 33</li>
-        <li>Keeper Notes Section 36 Prebuild components</li>
-        <!-- \\wsl.localhost\Ubuntu\home\trujillo\ic-projects -->
-      </ul>
+  <body class="background_pattern">
+    <div class="profile">
+      <img src="./images/Yo.jpg" alt="header picture" class="picture_profile" />
+      <div class="about_me">
+        <h2>Jorge Trujillo Salazar</h2>
+        <h3>Software Engineer</h3>
+        <p class="res">
+          Im a software engineer with almost 4 years of experience in software
+          development, most of my experience is in the automotive field. I
+          consider myself as a person that like to learn about different
+          technologies and how the things work, this is one of the main reasons
+          that motivate myself to make a change in my career and focus on a
+          different area like web development.
+        </p>
+      </div>
     </div>
+
+    <!-- <ul class="list_projects">
+      <li>
+        <a href="./Projects/TinDog/" target="_blank">TinDog</a>
+      </li>
+      <li>
+        <a href="./Projects/Dice-Puzzle/" target="_blank">Dice puzzle</a>
+      </li>
+      <li>Drum Kit Section 18</li>
+      <li>Memory game Section 20</li>
+      <li>Group Travel Tracker Section 33</li>
+      <li>Keeper Notes Section 36 Prebuild components</li> -->
+
+    <div class="projects">
+      <h3>Projects</h3>
+      <section class="projects-grid">
+        <a href="./Projects/TinDog/" target="_blank" class="project-card-link">
+          <div class="project-card">
+            <h4 class="project-title">TinDog</h4>
+
+            <img
+              src="./images/TinDog_Preview.jpg"
+              alt="Preview proyecto 1"
+              class="project-img"
+            />
+
+            <h4 class="tech-used">Technologies used:</h4>
+            <ul class="tech-grid list-unstyled">
+              <li><i class="fa-brands fa-html5" style="color: #e34f26"></i></li>
+              <li>
+                <i class="fa-brands fa-css3-alt" style="color: #1572b6"></i>
+              </li>
+            </ul>
+          </div>
+        </a>
+
+        <a
+          href="./Projects/Dice-Puzzle/"
+          target="_blank"
+          class="project-card-link"
+        >
+          <div class="project-card">
+            <h4 class="project-title">Dice Randomizer</h4>
+
+            <img
+              src="./images/Dice_Randomizer_Preview.jpg"
+              alt="Preview proyecto 2"
+              class="project-img"
+            />
+
+            <h4 class="tech-used">Technologies used:</h4>
+            <ul class="tech-grid list-unstyled">
+              <li><i class="fa-brands fa-html5" style="color: #e34f26"></i></li>
+              <li>
+                <i class="fa-brands fa-css3-alt" style="color: #1572b6"></i>
+              </li>
+              <li><i class="fa-brands fa-js" style="color: #f7df1e"></i></li>
+            </ul>
+          </div>
+        </a>
+      </section>
+    </div>
+
+    <div class="cv">
+      <a href="./Projects/CV Trujillo Jorge.pdf" class="cv-button">
+        Download CV
+      </a>
+    </div>
+    <footer>🌍Jorge Trujillo Portfolio🌍</footer>
   </body>
 </html>

@@ -32,10 +32,21 @@ img {
   width: 80%;
 }
 
+.role-button {
+  display: block;    
+  margin: 20px auto;
+  background-color: #4ECCA3;
+  color: #232931;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
